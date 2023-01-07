@@ -106,6 +106,9 @@
       size: 100%
     }
 
+    ul.utility_order {
+      display: flex;
+  }
 
     .ethics_wrap {
       display: flex;
