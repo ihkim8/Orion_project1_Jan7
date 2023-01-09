@@ -202,10 +202,11 @@
       display: flex;
     }
 
+    
     .footer_list p {
       font-size: 14px;
-      margin-left: -40px;
-  }
+      margin-left: 89px;
+    }
 
     .ethics_title {
       margin-top: 100px;
@@ -426,10 +427,11 @@
       margin-top: 20px;
     }
 
+   
     .copyright {
       color: #777777;
       font-size: 14px;
-      margin-left: 70px;
+      margin-left: 154px;
       margin-top: 37px;
     }
 
@@ -440,17 +442,16 @@
       flex-direction: row;
     }
    
+    
     .icons {
       margin-bottom: -13px;
-      margin-left: -74px;
+      margin-left: 22px;
     }
-    
 
     .family_site {
       margin-left: -822px;
-      margin-right: 20px;
+      margin-right: 103px;
     }
-
     .family_site a {
       color: #D2D2D2;
       font-size: 14px;
@@ -544,12 +545,38 @@
 
     .visual_text { 
       position: absolute;
-      bottom: 10px;
+      bottom: 100px;
       width: 100%;
       text-align: center;
       color: #FFFFFF;
       font-size: 24px;
     }
+    .maintext1 { 
+      position: absolute;
+      bottom: 500px;
+      left:100px;
+      width: 100%;
+      text-align:left;
+      color: #FFFFFF;
+      font-size: 45px;
+      font-weight: bold;
+
+    }
+    .brand{
+      font-size:35px;
+    }
+    .maintext2 { 
+      position: absolute;
+      bottom: 500px;
+      left:100px;
+      width: 100%;
+      text-align:left;
+      color: rgb(32, 25, 25);
+      font-size: 45px;
+      font-weight: bold;
+
+    }
+    
     .sub_main:hover > .button1 > .layer {
       background-color: rgba(0, 0, 0, 0.4);
       width: 100%;
