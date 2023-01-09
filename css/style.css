@@ -102,10 +102,6 @@
       border-top: 0.3px solid gray;
     }
 
-    .main_visual_wrap img {
-      size: 100%
-    }
-
     ul.utility_order {
       display: flex;
   }
@@ -136,7 +132,7 @@
 
   
     .logo {
-    width: 120;
+    width: 120px;
     height: 26px;
     margin-top: -7px;
     margin-left: -15px;
@@ -182,10 +178,9 @@
       width: 21px;
       height: 27px;
       margin: 11px;
-      margin-top: -5px;
+      margin-top: -2px;
       margin-left: 23px;
-    }
-
+  }
     .top_right_lines {
       display: flex;
       width: 6px;
@@ -209,7 +204,8 @@
 
     .footer_list p {
       font-size: 14px;
-    }
+      margin-left: -40px;
+  }
 
     .ethics_title {
       margin-top: 100px;
@@ -323,7 +319,7 @@
     }
 
     .white_footer_wrap {
-      border-top: 0.3px solid gray;
+      border-top: 0.2px solid gray;
     }
 
     .white_footer {
@@ -356,7 +352,7 @@
       margin-left: -40px;
       margin-top: 60px;
     }
-
+   
     .red {
       color: red;
     }
@@ -441,7 +437,14 @@
       display: flex;
       align-items: flex-end;
       justify-content: space-between;
+      flex-direction: row;
     }
+   
+    .icons {
+      margin-bottom: -13px;
+      margin-left: -74px;
+    }
+    
 
     .family_site {
       margin-left: -822px;
@@ -455,7 +458,6 @@
       padding: 12px;
       margin-left: 43px;
       margin-right: 26px;
-      height: -22px;
     }
 
     .family_site img {

@@ -88,20 +88,20 @@ $(function(){
   })
 
   //시간마다실행 setInterval(함수,시간간격)이 들어갈 자리
-  // timer();
-  // function timer(){
-  //   id=setInterval(function(){
-  //     let next = current +1; //0+1
-  //     // console.log(visual.length);
-  //     if (next == visual.length){
-  //       next = 0;
-  //     }
+ timer();
+   function timer(){
+     id=setInterval(function(){
+       let next = current +1; //0+1
+       // console.log(visual.length);
+       if (next == visual.length){
+         next = 0;
+       }
   //     console.log(next);
-  //     button.eq(next).trigger("click");
-  //     // move(next);
-  //     // console.log(current++)
-  //   },speed)
-  // };
+       button.eq(next).trigger("click");
+        move(next);
+  //      console.log(current++)
+     },speed)
+   };
   // //이동 슬라이드 이동시켜주는 역할만 함. 
   // move();
   // function move(){
