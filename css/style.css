@@ -481,7 +481,7 @@
 
     hr {
       color: rgb(219, 216, 216);
-      size: 0.2px;
+      height: 1px;
     }
 
     .white_footer_wrap {
