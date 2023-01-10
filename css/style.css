@@ -37,27 +37,6 @@
       position: absolute;
     }
 
-    .category1 img {
-      top: 770px;
-      left: 165px;
-
-    }
-
-    .category2 img {
-      top: 770px;
-      left: 463px;
-    }
-
-    .category3 img {
-      top: 770px;
-      left: 757px;
-    }
-
-    .category4 img {
-      top: 770px;
-      left: 1049px;
-    }
-
     .content1_wrap {
       width: 100%;
       background: white;
@@ -190,10 +169,6 @@
       margin-top: -4px;
     }
 
-    .section1_category {
-      display: flex;
-    }
-
     .content1_wrap {
       display: block;
     }
@@ -244,8 +219,9 @@
     .ethics_list_wrap2 {
       display: flex;
       position: relative;
+      bottom: -6px;
     }
-
+    
     .ethics_list_wrap1 a,
     .ethics_list_wrap2 a,
     .ethics7 a {
@@ -266,12 +242,80 @@
       font-size: 2em;
       color: white;
     }
+    
+    .ethics_list_wrap1 a:hover .big,
+    .ethics_list_wrap2 a:hover .big
+    {
+      position: absolute;
+      width: 93.5%;
+      height: 97%;
+      top: 0; left: 0;
+       
+    }
+    .ethics1 a:hover .big
+    {background-color: rgba(255, 137, 2, 0.4);}
+    .ethics2 a:hover .big
+    {background-color: rgba(11, 75, 239, 0.4);}
+    .ethics3 a:hover .big
+    {background-color: rgba(148, 193, 18, 0.4);}
+    .ethics4 a:hover .big
+    {background-color: rgba(36, 181, 214, 0.85);}
+    .ethics5 a:hover .big
+    {background-color: rgba(156, 39, 228, 0.4);}
+    .ethics6 a:hover .big
+    {background-color: rgba(204, 31, 49, 0.4);}
+    .ethics7 a:hover .big {
+      position: absolute;
+      background-color: rgba(20, 160, 76, 0.4);
+      width: 93.5%;
+      height: 99.5%;
+      position: absolute;
+      top: 0; left: 0;   
+    }
+  
+     .ethics_list_wrap1 a .small,
+     .ethics_list_wrap2 a .small
+     {
+       position: absolute;
+       top: 48px;
+       left: 0px;
+       font-size: 1.25em;
+       color: white;
+       line-height:25px;
+       display:none;
+     }
+     
+     .ethics7 a .small {
+       position: absolute;
+       top: 85px;
+       left: 0px;
+       font-size: 1.25em;
+       color: white;
+       line-height:25px;
+       display:none;
+     }
+     .ethics7 a:hover .small {
+      display:block;
+       
+    }
+     .ethics7 a:hover .small {
+    
+      display:block;
+       
+    }
+    
+     .ethics_list_wrap1 a:hover .small,
+     .ethics_list_wrap2 a:hover .small{
+       display:block;
+     }
+
+    
 
     .ethics1 p.big {
       position: absolute;
       top: 20px;
       left: 40px;
-      font-size: 2em;
+      font-size: 36px;
       color: white;
     }
 
@@ -280,12 +324,134 @@
       margin-top: -30px;
     }
 
+   
 
     .news_list img {
       width: 280px;
       height: 280px;
     }
 
+    .news_top{
+      display:flex;
+     
+    }
+    .news_top a{
+      margin:1px;
+
+      
+    }
+    .news_bottom{
+      display:flex;
+      margin-top:-3px;
+      width:100%;
+      height:100%;
+      
+    }
+    .news_bottom a{
+      margin:1px;
+     
+      
+    }
+    .news1, .news2, .news3, .news4, 
+    .news5, .news6, .news7, .news8{
+      position:relative;
+     
+     
+    }
+   
+    .sns{
+      position:absolute;
+      bottom:17px;
+      right:17px;
+    }
+    .sns img{
+      width:36px;
+      height:36px;
+      
+    }
+    .news1:hover .news_text,
+    .news2:hover .news_text,
+    .news3:hover .news_text,
+    .news4:hover .news_text,
+    .news5:hover .news_text,
+    .news6:hover .news_text,
+    .news7:hover .news_text,
+    .news8:hover .news_text
+    {
+      position:absolute;
+      top:0px;
+      left:0px;
+      text-align: center;
+      font-size:1.5em;
+      color:white;
+      line-height:32px;
+      background: rgba(254, 2, 2, 0.4);
+      width:100%;
+      height:98.5%;
+      display:block;
+    }
+    
+    .news1 .news_text,
+    .news2 .news_text,
+    .news3 .news_text,
+    .news4 .news_text,
+    .news5 .news_text,
+    .news6 .news_text,
+    .news7 .news_text,
+    .news8 .news_text
+    {
+      display:none;
+      
+    }
+    
+    .text_position1{
+      position:absolute;
+      top:100px;
+      left:50px;
+    }
+    .text_position2{
+      position:absolute;
+      top:100px;
+      left:50px;
+    }
+ 
+    .text_position3{
+      position:absolute;
+      top:90px;
+      left:65px;
+      
+    }
+    .text_position4{
+      position:absolute;
+      top:115px;
+      left:25px;
+      
+    }
+    .text_position5{
+      position:absolute;
+      top:80px;
+      left:50px;
+      
+    }
+    .text_position6{
+      position:absolute;
+      top:100px;
+      left:20px;
+      
+    }
+    .text_position7{
+      position:absolute;
+      top:90px;
+      left:25px;
+      
+    }
+    .text_position8{
+      position:absolute;
+      top:100px;
+      left:60px;
+      
+    }
+    
     .red_underline {
       color: red;
       text-decoration: underline;
@@ -294,7 +460,6 @@
 
     .newsroom {
       text-align: center;
-
     }
 
     .news_menu_list {
@@ -550,16 +715,19 @@
       text-align: center;
       color: #FFFFFF;
       font-size: 35px;
+      
     }
     .maintext1 { 
       position: absolute;
-      bottom: 550px;
+      bottom: 500px;
       left:-10px;
       width: 100%;
       text-align:center;
       color: #FFFFFF;
       font-size: 50px;
       font-weight: bold;
+      line-height:70px;
+      word-spacing: 20px;
 
     }
     .brand{
@@ -574,17 +742,19 @@
       color: rgb(32, 25, 25);
       font-size: 50px;
       font-weight: bold;
+      line-height:70px;
 
     }
     .maintext3 { 
       position: absolute;
-      bottom: 600px;
+      bottom: 550px;
       left:-10px;
       width: 100%;
       text-align:center;
       color: rgb(32, 25, 25);
       font-size: 45px;
       font-weight: bold;
+      line-height:70px;
 
     }
     .maintext4 { 
@@ -596,7 +766,7 @@
       color: rgb(255, 255, 255);
       font-size: 45px;
       font-weight: bold;
-
+      line-height:70px;
     }
     
     .sub_main:hover > .button1 > .layer {
@@ -709,6 +879,11 @@
       flex-direction: row;
       display: none;
     }
+
+    .news_list{
+      width:100%;
+    }
+ 
 
     #layer {
       display: block;
