@@ -66,6 +66,21 @@
       background: transparent;
     }
 
+    #skip{position:relative;}
+    #skip a{
+      position:absolute;
+      left:0px;
+      top:-35px;
+      border:1px solid #fff;
+      color:#fff;
+      background:#333;
+      line-height:30px;
+      width:160px;
+      text-align:center;
+    }
+    #skip a:active,
+    #skip a:focus{top:0;}
+
     .top_black_footer {
       background-color: #222222;
       width: 100%;
