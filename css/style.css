@@ -600,11 +600,15 @@
       margin-top: 37px;
     }
 
+    .bottom_black_footer{
+      position:relative;
+    }
     .footer_bottom {
       display: flex;
       align-items: flex-end;
       justify-content: space-between;
       flex-direction: row;
+      
     }
    
     
@@ -613,6 +617,11 @@
       margin-left: 22px;
     }
 
+    .validator{
+      position:absolute;
+      bottom:-80px;
+      left:155px;
+    }
     
     .family_site {
       margin-left: -804px;
